@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "68cacd9b-3e10-4b39-82ce-55986f251b8c",
-		"name": "Demo Mosip RC",
+		"_postman_id": "68cacd9b-3e10-4b39-82ce-55986f251b8o",
+		"name": "Edudegree",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "25568368"
+		"_exporter_id": "25568369"
 	},
 	"item": [
 		{
@@ -818,7 +818,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{CREDSCHEMA_BASE_URL}}/credential-schema?tags=InsuranceCertificate&page=1&limit=10",
+									"raw": "{{CREDSCHEMA_BASE_URL}}/credential-schema?tags=EduDegreeCertificate&page=1&limit=10",
 									"host": [
 										"{{CREDSCHEMA_BASE_URL}}"
 									],
@@ -828,7 +828,7 @@
 									"query": [
 										{
 											"key": "tags",
-											"value": "InsuranceCertificate"
+											"value": "EduDegreeCertificate"
 										},
 										{
 											"key": "page",
@@ -1423,17 +1423,17 @@
 							}
 						],
 						"url": {
-																"raw": "{{CREDENTIAL_BASE_URL}}/credentials/did:cbse:da64a0a9-b036-45e6-aad9-b70afe12b56f",
-									"host": [
-										"{{CREDENTIAL_BASE_URL}}"
-									],
-									"path": [
-										"credentials",
-										"did:cbse:da64a0a9-b036-45e6-aad9-b70afe12b56f"
-									]
-								}
-							},
-												"response": [
+							"raw": "{{CREDENTIAL_BASE_URL}}/credentials/did:cbse:da64a0a9-b036-45e6-aad9-b70afe12b56f",
+							"host": [
+								"{{CREDENTIAL_BASE_URL}}"
+							],
+							"path": [
+								"credentials",
+								"did:cbse:da64a0a9-b036-45e6-aad9-b70afe12b56f"
+							]
+						}
+					},
+					"response": [
 						{
 							"name": "Get Credential By ID Copy",
 							"originalRequest": {
