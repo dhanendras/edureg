@@ -1,1 +1,1 @@
-# edureg
+# demo-mosip-rc
